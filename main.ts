@@ -9,6 +9,9 @@
 let loopCounter: number = 0
 let sprite: game.LedSprite = null
 
+// on start
+basic.showIcon(IconNames.Happy)
+
 // on button A, LED sprite lights up diagonally from top left corner to bottom right corner
 input.onButtonPressed(Button.A, function () {
   // setting values
